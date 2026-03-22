@@ -1,0 +1,166 @@
+/* RESET DEFAULT MARGINS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Blue Header Styling */
+.blue-header {
+    background-color: #1a3a8a; /* Your specific blue */
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left Contact Section */
+.contact-section {
+    flex: 1; /* Takes up equal space on the left */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Center Profile Section */
+.profile-section {
+    flex: 2; /* Takes up the middle space */
+    text-align: center;
+}
+
+.profile-section h1 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 190px;
+    border-radius: 50% / 45%; /* Creates the vertical oval */
+    border: 7px solid white;
+    object-fit: cover;
+}
+
+/* Right Spacer - Crucial for centering the middle */
+.spacer {
+    flex: 1;
+}
+
+
+
+
+/* NAVBAR */
+nav {
+    background-color: #111827;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* SECTION STYLING */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #1e3a8a;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* IMAGE */
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+/* LIST */
+ul {
+    list-style-type: square;
+}
+
+/* FOOTER */
+footer {
+    background-color: #3e50f5;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 15px;
+}
+
+/* HOVER EFFECT FOR SECTIONS */
+section:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+/* CLASS SELECTOR EXAMPLE */
+.highlight {
+    color: #1b35e3;
+    font-weight: bold;
+}
+
+/* ID SELECTOR EXAMPLE */
+#contact {
+    background-color: #e0f2fe;
+}
